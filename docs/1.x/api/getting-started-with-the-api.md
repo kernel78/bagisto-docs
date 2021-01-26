@@ -41,9 +41,9 @@ So, let's try to authenticate the user by using **JWT**. Please send valid **Use
 
 - Request
 
-  `GET http(s)://example.com/api/customer/login?token=true`
+  `POST http(s)://example.com/api/customer/login?token=true`
 
-- Params
+- Body Params
 
   | Key      | Value            |
   | -------- | ---------------- |
